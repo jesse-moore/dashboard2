@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.disableTailwind {
+    & input:focus {
+        @apply ring-offset-0 ring-0;
+    }
+}
